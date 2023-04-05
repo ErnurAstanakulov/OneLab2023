@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ViewControllerLifeCycleProject_ViewControllerLifeCycleProjectUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ViewControllerLifeCycleProject_ViewControllerLifeCycleProjectUITests
+@end

@@ -1,0 +1,6 @@
+framework module Pods_AutoLayoutCookProject {
+  umbrella header "Pods-AutoLayoutCookProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051C44C01A98D31C79C14C21 /* Pods_ZapisDemoVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E056984933A6FED25360ED5A /* Pods_ZapisDemoVIP.framework */; };
+		767383C7236E22E900E517EC /* AppSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383C6236E22E900E517EC /* AppSessionManager.swift */; };
+		767383C9236E24ED00E517EC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383C8236E24ED00E517EC /* NetworkService.swift */; };
+		767383CB236E26BD00E517EC /* NetworkContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383CA236E26BD00E517EC /* NetworkContext.swift */; };
+		767383CD236E270900E517EC /* RouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383CC236E270900E517EC /* RouteProtocol.swift */; };
+		767383CF236E273600E517EC /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383CE236E273600E517EC /* Route.swift */; };
+		767383D1236E279500E517EC /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383D0236E279500E517EC /* NetworkAdapter.swift */; };
+		767383D3236E27EB00E517EC /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383D2236E27EB00E517EC /* NetworkResponse.swift */; };
+		767383D6236EA73000E517EC /* SalonListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383D5236EA73000E517EC /* SalonListRouter.swift */; };
+		767383D8236EA73A00E517EC /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383D7236EA73A00E517EC /* Fruit.swift */; };
+		767383DA236EA74100E517EC /* SalonListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383D9236EA74100E517EC /* SalonListService.swift */; };
+		767383DC236EA74B00E517EC /* SalonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383DB236EA74B00E517EC /* SalonListViewController.swift */; };
+		767383DE236EA75200E517EC /* SalonListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383DD236EA75200E517EC /* SalonListPresenter.swift */; };
+		767383E0236EA75C00E517EC /* SalonListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383DF236EA75C00E517EC /* SalonListInteractor.swift */; };
+		767383E4236EA7C200E517EC /* ViewInitilizeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383E3236EA7C200E517EC /* ViewInitilizeProtocol.swift */; };
+		767383E7236EA7FA00E517EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383E6236EA7FA00E517EC /* Extensions.swift */; };
+		767383E9236EB28300E517EC /* SalonListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383E8236EB28300E517EC /* SalonListCollectionCell.swift */; };
+		767383EB236EB29400E517EC /* SalonListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383EA236EB29400E517EC /* SalonListTableCell.swift */; };
+		767383F2236EC2E700E517EC /* SalonDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383F1236EC2E700E517EC /* SalonDetailRouter.swift */; };
+		767383F4236EC2ED00E517EC /* SalonDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383F3236EC2ED00E517EC /* SalonDetailPresenter.swift */; };
+		767383F6236EC2F500E517EC /* SalonDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383F5236EC2F500E517EC /* SalonDetailInteractor.swift */; };
+		767383F8236EC2FB00E517EC /* SalonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383F7236EC2FB00E517EC /* SalonDetailViewController.swift */; };
+		767383FA236ED93300E517EC /* TopBarPicturePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383F9236ED93300E517EC /* TopBarPicturePageView.swift */; };
+		767383FC236ED95300E517EC /* TopBarCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383FB236ED95300E517EC /* TopBarCollectionCell.swift */; };
+		767383FE236ED96600E517EC /* SalonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767383FD236ED96600E517EC /* SalonInfoView.swift */; };
+		76738402236EDA0900E517EC /* SalonDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76738401236EDA0900E517EC /* SalonDetailModel.swift */; };
+		76738404236EDA1400E517EC /* SalonPageNetworkContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76738403236EDA1400E517EC /* SalonPageNetworkContext.swift */; };
+		76C9105C236E0C2C00E5AA75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9105B236E0C2C00E5AA75 /* AppDelegate.swift */; };
+		76C9105E236E0C2C00E5AA75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9105D236E0C2C00E5AA75 /* ViewController.swift */; };
+		76C91061236E0C2C00E5AA75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C9105F236E0C2C00E5AA75 /* Main.storyboard */; };
+		76C91063236E0C2E00E5AA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C91062236E0C2E00E5AA75 /* Assets.xcassets */; };
+		76C91066236E0C2E00E5AA75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C91064236E0C2E00E5AA75 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		767383C6236E22E900E517EC /* AppSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSessionManager.swift; sourceTree = "<group>"; };
+		767383C8236E24ED00E517EC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		767383CA236E26BD00E517EC /* NetworkContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkContext.swift; sourceTree = "<group>"; };
+		767383CC236E270900E517EC /* RouteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteProtocol.swift; sourceTree = "<group>"; };
+		767383CE236E273600E517EC /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		767383D0236E279500E517EC /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		767383D2236E27EB00E517EC /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		767383D5236EA73000E517EC /* SalonListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListRouter.swift; sourceTree = "<group>"; };
+		767383D7236EA73A00E517EC /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		767383D9236EA74100E517EC /* SalonListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListService.swift; sourceTree = "<group>"; };
+		767383DB236EA74B00E517EC /* SalonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListViewController.swift; sourceTree = "<group>"; };
+		767383DD236EA75200E517EC /* SalonListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListPresenter.swift; sourceTree = "<group>"; };
+		767383DF236EA75C00E517EC /* SalonListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListInteractor.swift; sourceTree = "<group>"; };
+		767383E3236EA7C200E517EC /* ViewInitilizeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInitilizeProtocol.swift; sourceTree = "<group>"; };
+		767383E6236EA7FA00E517EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		767383E8236EB28300E517EC /* SalonListCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListCollectionCell.swift; sourceTree = "<group>"; };
+		767383EA236EB29400E517EC /* SalonListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonListTableCell.swift; sourceTree = "<group>"; };
+		767383F1236EC2E700E517EC /* SalonDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDetailRouter.swift; sourceTree = "<group>"; };
+		767383F3236EC2ED00E517EC /* SalonDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDetailPresenter.swift; sourceTree = "<group>"; };
+		767383F5236EC2F500E517EC /* SalonDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDetailInteractor.swift; sourceTree = "<group>"; };
+		767383F7236EC2FB00E517EC /* SalonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDetailViewController.swift; sourceTree = "<group>"; };
+		767383F9236ED93300E517EC /* TopBarPicturePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarPicturePageView.swift; sourceTree = "<group>"; };
+		767383FB236ED95300E517EC /* TopBarCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarCollectionCell.swift; sourceTree = "<group>"; };
+		767383FD236ED96600E517EC /* SalonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonInfoView.swift; sourceTree = "<group>"; };
+		76738401236EDA0900E517EC /* SalonDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDetailModel.swift; sourceTree = "<group>"; };
+		76738403236EDA1400E517EC /* SalonPageNetworkContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonPageNetworkContext.swift; sourceTree = "<group>"; };
+		76C91058236E0C2C00E5AA75 /* ZapisDemoVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZapisDemoVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C9105B236E0C2C00E5AA75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76C9105D236E0C2C00E5AA75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76C91060236E0C2C00E5AA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76C91062236E0C2E00E5AA75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76C91065236E0C2E00E5AA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76C91067236E0C2E00E5AA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798EF6E41F74281FD7AC72B3 /* Pods-ZapisDemoVIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapisDemoVIP.release.xcconfig"; path = "Target Support Files/Pods-ZapisDemoVIP/Pods-ZapisDemoVIP.release.xcconfig"; sourceTree = "<group>"; };
+		D8FE1CDC3CD565C453E64BD6 /* Pods-ZapisDemoVIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapisDemoVIP.debug.xcconfig"; path = "Target Support Files/Pods-ZapisDemoVIP/Pods-ZapisDemoVIP.debug.xcconfig"; sourceTree = "<group>"; };
+		E056984933A6FED25360ED5A /* Pods_ZapisDemoVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZapisDemoVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C91055236E0C2C00E5AA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051C44C01A98D31C79C14C21 /* Pods_ZapisDemoVIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5D5CFA3A350B7882B9BDA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE1CDC3CD565C453E64BD6 /* Pods-ZapisDemoVIP.debug.xcconfig */,
+				798EF6E41F74281FD7AC72B3 /* Pods-ZapisDemoVIP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BA6144921FE27AEA35C92CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E056984933A6FED25360ED5A /* Pods_ZapisDemoVIP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7637BE2A236E1B7800A5D81A /* SalonListModule */ = {
+			isa = PBXGroup;
+			children = (
+				7637BE31236E1BBB00A5D81A /* Service */,
+				7637BE2F236E1B9C00A5D81A /* Model */,
+				7637BE2E236E1B9000A5D81A /* Router */,
+				7637BE2D236E1B8B00A5D81A /* View */,
+				7637BE2C236E1B8700A5D81A /* Presenter */,
+				7637BE2B236E1B8100A5D81A /* Interactor */,
+			);
+			path = SalonListModule;
+			sourceTree = "<group>";
+		};
+		7637BE2B236E1B8100A5D81A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				767383DF236EA75C00E517EC /* SalonListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7637BE2C236E1B8700A5D81A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				767383DD236EA75200E517EC /* SalonListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7637BE2D236E1B8B00A5D81A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				767383DB236EA74B00E517EC /* SalonListViewController.swift */,
+				767383EA236EB29400E517EC /* SalonListTableCell.swift */,
+				767383E8236EB28300E517EC /* SalonListCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7637BE2E236E1B9000A5D81A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				767383D5236EA73000E517EC /* SalonListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7637BE2F236E1B9C00A5D81A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				767383D7236EA73A00E517EC /* Fruit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7637BE30236E1BA300A5D81A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				767383C6236E22E900E517EC /* AppSessionManager.swift */,
+				767383C8236E24ED00E517EC /* NetworkService.swift */,
+				767383D0236E279500E517EC /* NetworkAdapter.swift */,
+				767383CC236E270900E517EC /* RouteProtocol.swift */,
+				767383CA236E26BD00E517EC /* NetworkContext.swift */,
+				767383D2236E27EB00E517EC /* NetworkResponse.swift */,
+				767383CE236E273600E517EC /* Route.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7637BE31236E1BBB00A5D81A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				767383D9236EA74100E517EC /* SalonListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		767383D4236EA6BB00E517EC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		767383E1236EA7A900E517EC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				767383E5236EA7F000E517EC /* Extensions */,
+				767383E2236EA7B400E517EC /* Protocols */,
+				767383D4236EA6BB00E517EC /* Navigation */,
+				7637BE30236E1BA300A5D81A /* Network */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		767383E2236EA7B400E517EC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				767383E3236EA7C200E517EC /* ViewInitilizeProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		767383E5236EA7F000E517EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				767383E6236EA7FA00E517EC /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		767383EC236EC2B200E517EC /* SalonDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				76738400236ED9DC00E517EC /* SalonDetailModel */,
+				767383FF236ED9C800E517EC /* Network */,
+				767383F0236EC2DB00E517EC /* SalonDetailRouter */,
+				767383EF236EC2D300E517EC /* SalonDetailPresenter */,
+				767383EE236EC2CA00E517EC /* SalonDetailInteractor */,
+				767383ED236EC2BE00E517EC /* SalonDetailView */,
+			);
+			path = SalonDetailModule;
+			sourceTree = "<group>";
+		};
+		767383ED236EC2BE00E517EC /* SalonDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				767383F7236EC2FB00E517EC /* SalonDetailViewController.swift */,
+				767383F9236ED93300E517EC /* TopBarPicturePageView.swift */,
+				767383FB236ED95300E517EC /* TopBarCollectionCell.swift */,
+				767383FD236ED96600E517EC /* SalonInfoView.swift */,
+			);
+			path = SalonDetailView;
+			sourceTree = "<group>";
+		};
+		767383EE236EC2CA00E517EC /* SalonDetailInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				767383F5236EC2F500E517EC /* SalonDetailInteractor.swift */,
+			);
+			path = SalonDetailInteractor;
+			sourceTree = "<group>";
+		};
+		767383EF236EC2D300E517EC /* SalonDetailPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				767383F3236EC2ED00E517EC /* SalonDetailPresenter.swift */,
+			);
+			path = SalonDetailPresenter;
+			sourceTree = "<group>";
+		};
+		767383F0236EC2DB00E517EC /* SalonDetailRouter */ = {
+			isa = PBXGroup;
+			children = (
+				767383F1236EC2E700E517EC /* SalonDetailRouter.swift */,
+			);
+			path = SalonDetailRouter;
+			sourceTree = "<group>";
+		};
+		767383FF236ED9C800E517EC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				76738403236EDA1400E517EC /* SalonPageNetworkContext.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		76738400236ED9DC00E517EC /* SalonDetailModel */ = {
+			isa = PBXGroup;
+			children = (
+				76738401236EDA0900E517EC /* SalonDetailModel.swift */,
+			);
+			path = SalonDetailModel;
+			sourceTree = "<group>";
+		};
+		76C9104F236E0C2C00E5AA75 = {
+			isa = PBXGroup;
+			children = (
+				76C9105A236E0C2C00E5AA75 /* ZapisDemoVIP */,
+				76C91059236E0C2C00E5AA75 /* Products */,
+				4A5D5CFA3A350B7882B9BDA5 /* Pods */,
+				5BA6144921FE27AEA35C92CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76C91059236E0C2C00E5AA75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C91058236E0C2C00E5AA75 /* ZapisDemoVIP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76C9105A236E0C2C00E5AA75 /* ZapisDemoVIP */ = {
+			isa = PBXGroup;
+			children = (
+				767383E1236EA7A900E517EC /* Common */,
+				7637BE2A236E1B7800A5D81A /* SalonListModule */,
+				76C9105B236E0C2C00E5AA75 /* AppDelegate.swift */,
+				76C9105D236E0C2C00E5AA75 /* ViewController.swift */,
+				767383EC236EC2B200E517EC /* SalonDetailModule */,
+				76C9105F236E0C2C00E5AA75 /* Main.storyboard */,
+				76C91062236E0C2E00E5AA75 /* Assets.xcassets */,
+				76C91064236E0C2E00E5AA75 /* LaunchScreen.storyboard */,
+				76C91067236E0C2E00E5AA75 /* Info.plist */,
+			);
+			path = ZapisDemoVIP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76C91057236E0C2C00E5AA75 /* ZapisDemoVIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C9106A236E0C2E00E5AA75 /* Build configuration list for PBXNativeTarget "ZapisDemoVIP" */;
+			buildPhases = (
+				2EA34746DE6DF02A836ABDC8 /* [CP] Check Pods Manifest.lock */,
+				76C91054236E0C2C00E5AA75 /* Sources */,
+				76C91055236E0C2C00E5AA75 /* Frameworks */,
+				76C91056236E0C2C00E5AA75 /* Resources */,
+				212B23913B539CA416BC47B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZapisDemoVIP;
+			productName = ZapisDemoVIP;
+			productReference = 76C91058236E0C2C00E5AA75 /* ZapisDemoVIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76C91050236E0C2C00E5AA75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = psuser;
+				TargetAttributes = {
+					76C91057236E0C2C00E5AA75 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 76C91053236E0C2C00E5AA75 /* Build configuration list for PBXProject "ZapisDemoVIP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76C9104F236E0C2C00E5AA75;
+			productRefGroup = 76C91059236E0C2C00E5AA75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76C91057236E0C2C00E5AA75 /* ZapisDemoVIP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76C91056236E0C2C00E5AA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C91066236E0C2E00E5AA75 /* LaunchScreen.storyboard in Resources */,
+				76C91063236E0C2E00E5AA75 /* Assets.xcassets in Resources */,
+				76C91061236E0C2C00E5AA75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212B23913B539CA416BC47B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZapisDemoVIP/Pods-ZapisDemoVIP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZapisDemoVIP/Pods-ZapisDemoVIP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZapisDemoVIP/Pods-ZapisDemoVIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA34746DE6DF02A836ABDC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZapisDemoVIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C91054236E0C2C00E5AA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767383CB236E26BD00E517EC /* NetworkContext.swift in Sources */,
+				767383F6236EC2F500E517EC /* SalonDetailInteractor.swift in Sources */,
+				767383FA236ED93300E517EC /* TopBarPicturePageView.swift in Sources */,
+				767383D8236EA73A00E517EC /* Fruit.swift in Sources */,
+				767383CD236E270900E517EC /* RouteProtocol.swift in Sources */,
+				767383DA236EA74100E517EC /* SalonListService.swift in Sources */,
+				767383E4236EA7C200E517EC /* ViewInitilizeProtocol.swift in Sources */,
+				767383E9236EB28300E517EC /* SalonListCollectionCell.swift in Sources */,
+				767383DE236EA75200E517EC /* SalonListPresenter.swift in Sources */,
+				767383E0236EA75C00E517EC /* SalonListInteractor.swift in Sources */,
+				767383D1236E279500E517EC /* NetworkAdapter.swift in Sources */,
+				767383F8236EC2FB00E517EC /* SalonDetailViewController.swift in Sources */,
+				76C9105E236E0C2C00E5AA75 /* ViewController.swift in Sources */,
+				767383CF236E273600E517EC /* Route.swift in Sources */,
+				767383DC236EA74B00E517EC /* SalonListViewController.swift in Sources */,
+				767383D3236E27EB00E517EC /* NetworkResponse.swift in Sources */,
+				767383D6236EA73000E517EC /* SalonListRouter.swift in Sources */,
+				76738402236EDA0900E517EC /* SalonDetailModel.swift in Sources */,
+				76C9105C236E0C2C00E5AA75 /* AppDelegate.swift in Sources */,
+				767383F4236EC2ED00E517EC /* SalonDetailPresenter.swift in Sources */,
+				76738404236EDA1400E517EC /* SalonPageNetworkContext.swift in Sources */,
+				767383F2236EC2E700E517EC /* SalonDetailRouter.swift in Sources */,
+				767383EB236EB29400E517EC /* SalonListTableCell.swift in Sources */,
+				767383E7236EA7FA00E517EC /* Extensions.swift in Sources */,
+				767383FE236ED96600E517EC /* SalonInfoView.swift in Sources */,
+				767383C9236E24ED00E517EC /* NetworkService.swift in Sources */,
+				767383C7236E22E900E517EC /* AppSessionManager.swift in Sources */,
+				767383FC236ED95300E517EC /* TopBarCollectionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76C9105F236E0C2C00E5AA75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C91060236E0C2C00E5AA75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76C91064236E0C2E00E5AA75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C91065236E0C2E00E5AA75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76C91068236E0C2E00E5AA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76C91069236E0C2E00E5AA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76C9106B236E0C2E00E5AA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FE1CDC3CD565C453E64BD6 /* Pods-ZapisDemoVIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ35RXTLV4;
+				INFOPLIST_FILE = ZapisDemoVIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kz.psuser.ZapisDemoVIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76C9106C236E0C2E00E5AA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798EF6E41F74281FD7AC72B3 /* Pods-ZapisDemoVIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ35RXTLV4;
+				INFOPLIST_FILE = ZapisDemoVIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kz.psuser.ZapisDemoVIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76C91053236E0C2C00E5AA75 /* Build configuration list for PBXProject "ZapisDemoVIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C91068236E0C2E00E5AA75 /* Debug */,
+				76C91069236E0C2E00E5AA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C9106A236E0C2E00E5AA75 /* Build configuration list for PBXNativeTarget "ZapisDemoVIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C9106B236E0C2E00E5AA75 /* Debug */,
+				76C9106C236E0C2E00E5AA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76C91050236E0C2C00E5AA75 /* Project object */;
+}

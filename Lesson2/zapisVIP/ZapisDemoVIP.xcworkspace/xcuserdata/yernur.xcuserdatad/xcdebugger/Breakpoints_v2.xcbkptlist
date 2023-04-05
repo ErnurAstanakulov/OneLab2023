@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BFFB7151-AD37-41C3-906E-2E52F7DB7D16"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "672D0A85-3F16-4372-9A7F-4DA019E0567E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZapisDemoVIP/SalonListModule/Interactor/SalonListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "loadRecentSalons(onCompletion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "672D0A85-3F16-4372-9A7F-4DA019E0567E - 977bfa246a4a0e1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZapisDemoVIP.SalonListInteractor.loadRecentSalons(onCompletion: (Alamofire.Result&lt;Swift.Array&lt;ZapisDemoVIP.Fruit&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ZapisDemoVIP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yernur/Documents/zapisVIP/ZapisDemoVIP/SalonListModule/Interactor/SalonListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "134">
+               </Location>
+               <Location
+                  uuid = "672D0A85-3F16-4372-9A7F-4DA019E0567E - 456db88b6cc15922"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ZapisDemoVIP.NetworkResponse) -&gt; () in ZapisDemoVIP.SalonListInteractor.loadRecentSalons(onCompletion: (Alamofire.Result&lt;Swift.Array&lt;ZapisDemoVIP.Fruit&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ZapisDemoVIP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yernur/Documents/zapisVIP/ZapisDemoVIP/SalonListModule/Interactor/SalonListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "125">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FE23EA0-8DA9-4C00-A331-85AF4F1A4851"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZapisDemoVIP/SalonListModule/Interactor/SalonListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "loadRecentSalons(onCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

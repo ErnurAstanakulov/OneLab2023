@@ -8,7 +8,15 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ForteExMainHeaderViewDelegate {
+    func didScrollTrade(with id: Int) {
+        
+    }
+    
+    func didShowTradeAction() {
+        
+    }
+    
     private let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "success")
@@ -112,10 +120,19 @@ class ViewController: UIViewController {
         ]
         return gradient
     }()
+    
+    private lazy var containerView = ForteExMainHeaderView(delegate: self)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        layoutUI()
+        view.addSubview(containerView)
+        containerView.backgroundColor = .orange
+        containerView.snp.makeConstraints {
+            $0.top.leading.trailing.equalToSuperview()
+            $0.height.equalTo(425)
+        }
+        
+        view.backgroundColor = .yellow
     }
     
     @objc private func continueButtonDidTap() {

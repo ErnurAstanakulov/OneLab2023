@@ -18,6 +18,7 @@
 		395939AA29D026720050CCEE /* Cignika-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 395939A629D026720050CCEE /* Cignika-Semibold.ttf */; };
 		395939AB29D026720050CCEE /* Cignika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 395939A729D026720050CCEE /* Cignika-Regular.ttf */; };
 		395939AE29D032130050CCEE /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395939AD29D032130050CCEE /* UIFont + Extension.swift */; };
+		3983B30029E7A75C008D5338 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983B2FF29E7A75C008D5338 /* View.swift */; };
 		45F57F6889D98F469A6D7783 /* Pods_AutoLayoutCookProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095E594CC8AF445B3005841E /* Pods_AutoLayoutCookProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		395939A629D026720050CCEE /* Cignika-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cignika-Semibold.ttf"; sourceTree = "<group>"; };
 		395939A729D026720050CCEE /* Cignika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cignika-Regular.ttf"; sourceTree = "<group>"; };
 		395939AD29D032130050CCEE /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		3983B2FF29E7A75C008D5338 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		AEDDDEFD052CBD8FF62F7A58 /* Pods-AutoLayoutCookProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutCookProject.debug.xcconfig"; path = "Target Support Files/Pods-AutoLayoutCookProject/Pods-AutoLayoutCookProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC4F1AC36169B116B7E8F43 /* Pods-AutoLayoutCookProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutCookProject.release.xcconfig"; path = "Target Support Files/Pods-AutoLayoutCookProject/Pods-AutoLayoutCookProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				393FD08529D01196003292A9 /* AppDelegate.swift */,
 				393FD08729D01196003292A9 /* SceneDelegate.swift */,
 				393FD08929D01196003292A9 /* ViewController.swift */,
+				3983B2FF29E7A75C008D5338 /* View.swift */,
 				395939AD29D032130050CCEE /* UIFont + Extension.swift */,
 				395939AC29D026920050CCEE /* Fonts */,
 				393FD08B29D01196003292A9 /* Main.storyboard */,
@@ -247,6 +250,7 @@
 			files = (
 				395939AE29D032130050CCEE /* UIFont + Extension.swift in Sources */,
 				393FD08A29D01196003292A9 /* ViewController.swift in Sources */,
+				3983B30029E7A75C008D5338 /* View.swift in Sources */,
 				393FD08629D01196003292A9 /* AppDelegate.swift in Sources */,
 				393FD08829D01196003292A9 /* SceneDelegate.swift in Sources */,
 			);
